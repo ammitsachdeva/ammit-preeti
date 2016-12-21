@@ -4,7 +4,6 @@ using System.Linq;
 using System.Threading.Tasks;
 using WorkingWithVisualStudio.Models;
 using Xunit;
-
 namespace WorkingWithVisualStudio.Tests
 {
     public class ProductTests
@@ -27,8 +26,8 @@ namespace WorkingWithVisualStudio.Tests
             //Act
             p.Price = 200M;
             //Assert
-            Assert.Equal(100M, p.Price);
+            Assert.Equal(200M, p.Price);
+        }
 
         }
-    }
 }
